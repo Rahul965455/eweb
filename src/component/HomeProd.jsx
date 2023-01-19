@@ -118,7 +118,7 @@ const HomeProd = () => {
                 />
                 <div className="card-body">
                   <h5 className="card-title mb-0">
-                    {product.description.slice(0, 150)}...
+                    {product.description.slice(0, 50)}...
                   </h5>
                   <NavLink
                     to={`/products/${product.id}`}
