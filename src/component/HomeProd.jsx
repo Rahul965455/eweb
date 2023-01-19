@@ -120,7 +120,6 @@ const HomeProd = () => {
                   <h5 className="card-title mb-0">
                     {product.description.slice(0, 150)}...
                   </h5>
-                  <p className="card-text lead fw-bold">$ {product.price}</p>
                   <NavLink
                     to={`/products/${product.id}`}
                     className="btn btn-outline-dark"
