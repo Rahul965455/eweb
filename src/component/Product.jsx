@@ -12,6 +12,7 @@ function Product() {
     const get = await fetch(`https://fakestoreapi.com/products/${id}`);
     const res = await get.clone().json();
     const again = await get.json();
+    console.log(again)
     SetData(res);
     Setfilter(again);
   };
