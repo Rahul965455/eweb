@@ -1,0 +1,19 @@
+.category-label {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* added */
+    margin: 2px;
+    
+  }
+  
+  .category-color {
+    width: 20px;
+    height: 20px;
+    /* margin-right: 10px; */
+  }
+  span{
+    /* margin-left: 20px; */
+    font-weight: 400;
+    font-size: 12px;
+    
+  }
